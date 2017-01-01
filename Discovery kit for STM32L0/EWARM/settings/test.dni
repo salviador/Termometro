@@ -1,0 +1,68 @@
+[StLinkDriver]
+stlinkserialNo=87112744
+stlinkfoundProbes=
+CStepIntDis=_ 0
+LeaveTargetRunning=_ 0
+[DebugChecksum]
+Checksum=-1158018245
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[struct_types]
+Fmt0=RTC_TimeTypeDef-Seconds	3	0
+Fmt1=UART_HandleTypeDef-ErrorCode	3	0
+Fmt2=struct DATATIME-anno	3	0
+Fmt3=struct DATATIME-giorno	3	0
+Fmt4=struct DATATIME-mese	3	0
+Fmt5=struct DATATIME-minuti	3	0
+Fmt6=struct DATATIME-ora	3	0
+Fmt7=struct DATATIME-secondi	3	0
+[array_types]
+Fmt0=uint64_t[2]	4	0
+Fmt1=uint8_t[256]	5	0
+Fmt2=uint8_t[33]	4	0
+[watch_formats]
+Fmt0={W}1:icountparse	3	0
+Fmt1={W}1:icountparse2	3	0
+Fmt2={W}1:index_ORAMINUTI_TXSERVER	3	0
+Fmt3={W}1:last_carriege_Return_number	3	0
+Fmt4={W}1:minutitx	3	0
+Fmt5={W}1:p_r	3	0
+Fmt6={W}1:p_w	3	0
+Fmt7={W}1:p_wt	3	0
+Fmt8={W}1:pipes[0]	4	0
+Fmt9={W}1:reg	4	0
+Fmt10={W}1:temp	3	0
+Fmt11={W}1:value	4	0
+[CallStackLog]
+Enabled=0
+[CallStackStripe]
+ShowTiming=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Count=0
+[Aliases]
+Count=0
+SuppressDialog=0
